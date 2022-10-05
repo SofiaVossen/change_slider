@@ -1,81 +1,11 @@
 *{
-    font-family: Karla;
     margin: 0;
     padding:0;
     box-sizing: border-box;
 }
-body{
-    margin-left: 10%;
-    margin-right: 10%;
-    color:#323A45;
-}
-/* ===nav=========================================== */
-/* ================================================= */
-.topnav{
-    display: flex;
-    flex-direction: row ;
-    justify-content: flex-end;
-    overflow:hidden;
-    margin:5%;
-}
-nav h1{
-    margin-right: auto;
-}
-nav h1:hover{
-    color:#848484;
-    cursor:pointer;
-}
-nav p{
-    margin-left:5%;
-}
-nav p:hover{
-    color:#848484;
-    cursor:pointer;
-}
-/* ===main=========================================*/
-/* ================================================= */
-.container3Pic{
-    display: flex;
-    flex-flow: row wrap;
-    justify-content: space-evenly;
-    gap:1rem;
-}
-.item{
-    flex:1;
-}
-img{
-    width:100%;
-}
-a img:hover{
-    opacity: 0.5;
-}
-main section p{
-    color:#848484;
-}
-ul{
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: space-between;
-    list-style: none;
-}
-section{
-    margin-bottom:5%;
-}
-/* ===footer=========================================*/
-/* ================================================= */
-.footer1{
-    display: flex;
-    flex-flow:row wrap;
-    justify-content: space-between;
-    margin-bottom: 10px;
-}
-.footer1 article h2{
-    margin-bottom:10px;
-}
-.footer2{
-    color:#848484;
-}
-.footer{
-    display:flex;
-    flex-flow:column wrap;
+main{
+    text-align: center;
+    margin-top:40vh;
+    font-family:'Times New Roman', Times, serif;
+    font-size: 1.5rem;
 }
